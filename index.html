@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/common.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="nav">
+            <div class="nav-logo">
+              <a href="index.html"
+                ><h1>Portfolio Creator<span>.</span></h1></a
+              >
+            </div>
+            <ul class="nav-menus">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Experience</a></li>
+              <li><a href="#">Testmonial</a></li>
+              <button id="dark-light">
+                <img src="images/dark.svg" alt="" />
+              </button>
+            </ul>
+            <div id="toggle"></div>
+            <div id="sidebar">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Testmonial</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="home">
+        <div class="container">
+          <div class="home">
+            <div class="home-left">
+              <div class="home_left-content">
+                <h2>I design products</h2>
+                <h1>that delight and inspire people.</h1>
+                <p>
+                  Hi! I’m Jake, a product designer based in Berlin. I create
+                  user-friendly interfaces for fast-growing startups.
+                </p>
+                <div class="home_left-btns">
+                  <a class="primary-btn" href="#">Book a call</a>
+                  <button id="myBtn">
+                    See CV <img src="images/right-arrow.svg" alt="" />
+                  </button>
+                </div>
+                <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2>Java Script Book</h2>
+                    </div>
+                    <div class="modal-body">
+                      <iframe src="images/js.pdf"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <h3>Java Script</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-right">
+              <img src="images/home-bg.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="services">
+      <div class="container">
+        <div class="services">
+          <div class="services-head">
+            <h4 class="section-head">Services</h4>
+            <h2>Design that solves problems, one product at a time.</h2>
+          </div>
+          <div class="services-cards"></div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="projects">
+          <h4 class="section-head">PROJECTS</h4>
+          <div class="projects-head">
+            <h3>
+              I bring results. <br />
+              My clients are proof.
+            </h3>
+            <div class="projects-btn">
+              <a href="#" class="primary-btn">View all projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
