@@ -22,7 +22,7 @@
     ul {
       li {
         a {
-          color: #000!important;
+          color: #000 !important;
         }
       }
     }
@@ -278,6 +278,11 @@ nav {
       }
     }
   }
+  .nav-menuss {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
   .nav-menus {
     margin: 0;
     display: flex;
@@ -300,13 +305,16 @@ nav {
         display: block !important;
       }
     }
-    button {
-      border: none;
-      background-color: transparent;
-      img {
-        width: 36px;
-        height: 36px;
-      }
+  }
+  button {
+    border: none;
+    background-color: transparent;
+    img {
+      width: 36px;
+      height: 36px;
+    }
+    @media (max-width: 768px) {
+      margin-right: 50px;
     }
   }
 }

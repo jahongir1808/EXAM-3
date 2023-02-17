@@ -252,6 +252,11 @@ nav {
 .nav .nav-logo h1 span {
   color: #ff5e69;
 }
+.nav .nav-menuss {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
 .nav .nav-menus {
   margin: 0;
   display: flex;
@@ -277,13 +282,18 @@ nav {
     display: block !important;
   }
 }
-.nav .nav-menus button {
+.nav button {
   border: none;
   background-color: transparent;
 }
-.nav .nav-menus button img {
+.nav button img {
   width: 36px;
   height: 36px;
+}
+@media (max-width: 768px) {
+  .nav button {
+    margin-right: 50px;
+  }
 }
 
 @media (max-width: 786px) {
